@@ -1,7 +1,0 @@
-
-charset, Shift_JIS
-type,ghost
-name,–²‚İ‚éh‚¾‚ê‚©‚³‚ñh‚ÌÀŒ±
-directory,The_DSE
-
-refresh,1
