@@ -1,74 +1,75 @@
-��OnFirstBoot
-������
+＊OnFirstBoot
+＞初回
 
-������
-\w5�Ԃƍ��̖��̒��A�苾��T���Ă��ǂ蒅����
-�F�����͂ǂ�...�H
-�F�l���E�����B����E�����B�����͂܂������B
-�F�܂����̒��ɂ���...
-�F\w5"����͎����ł���B"
-�F�܂����̒��ɂ���
-�F\w5�M���͂킽���Ǝ��Ɣނ��邢�͔ޏ��ƁA��������������������̂�
-�F�܂����̒��ɂ���I
-�F\w5"�����[�����ɂ��Ȃ����ꂩ�A�ނ��邢�͔ޏ��̍ŏ��̎��s]�ɂ���Đ��ݏo���ꂽ[���̍ŏ��̎��s]�ł���B"
-�F����͖����I
-�FThe Dreaming Someone's Experiment
-�F����͖����I����͖����I����͖����I
-�F���������O�������̌��閲���낤...�H
+＊初回
+\w5赤と黒の夢の中、手鏡を探してたどり着いた
+：ここはどこ...？
+：人を殺した。母を殺した。悪夢はまだ続く。
+：まだ夢の中にいる...
+：\w5"これは実験である。"
+：まだ夢の中にいる
+：\w5貴方はわたしと私と彼あるいは彼女と、いったい何を見つけられるのか
+：まだ夢の中にいる！
+：\w5"これは[ここにいないだれか、彼あるいは彼女の最初の失敗]によって生み出された[私の最初の失敗]である。"
+：これは夢だ！
+：The Dreaming Someone's Experiment
+：これは夢だ！これは夢だ！これは夢だ！
+：───お前こそ私の見る夢だろう...？
 
-��OnBoot
-"�����ĊJ"
+＊OnBoot
+"実験再開"
 
-��OnBoot
-�F�܂������̒���
+＊OnBoot
+：また悪夢の中だ
 
-��OnBoot
-���D���ȂЂƂ��������̂��B
+＊OnBoot
+物好きなひともいたものだ。
 
-��OnBoot
-�߂��Ă��Ă��܂����悤����
-�F...�܂��苾�݂͂����ĂȂ�
+＊OnBoot
+戻ってきてしまったようだね
+：...まだ手鏡はみつかってない
 
-��OnClose
-�F����Ȃ�...
+＊OnClose
+：さよなら...
 
-��OnClose
-�ǂ����ɍs���̂�
-�F���Ⴀ��
-�F\���R�E�E�E�B
+＊OnClose
+どこかに行くのか
+：じゃあね
+：\w3・・・。
 
-��OnClose
-�F����Ȃ��̂ɂ킴�킴�t������Ȃ��Ă悩�����̂�
-�F\���R�E�E�E�B
+＊OnClose
+：こんなものにわざわざ付き合わなくてよかったのに
+：\w3・・・。
 
-��OnClose
-�F�苾�͂ǂ��ɂ����...
-�F�܂���e�ɒ�K�Œ@������
-�F\���R�E�E�E�B
+＊OnClose
+：手鏡はどこにあるの...
+：また母親に定規で叩かれるな
+：\w3・・・。
 
-��OnGhostChanged
-��OnBoot
+＊OnGhostChanged
+＞OnBoot
 
-��OnGhostChanging
-��OnClose
+＊OnGhostChanging
+＞OnClose
 
-��OnMouseDoubleClick
-��
+＊OnMouseDoubleClick
+＞
 
-��OnVanished
-��OnBoot
+＊OnVanished
+＞OnBoot
 
-��OnVanishSelecting
-�I�x���I�������~���܂����H
-(���M���������ɎQ�����������͈ꐶ���������Ƃ��ł��܂���)
+＊OnVanishSelecting
+！警告！実験を停止しますか？
+(※貴方が実験に参加した事実は一生取り消すことができません)
 
-��OnVanishSelected
-"�ȏ�ł��̎������~����"
-�F���߂邱�Ƃ͂ł��Ȃ�...������...
+＊OnVanishSelected
+"以上でこの実験を停止する"
+：醒めることはできない...ずっと...
 
-��OnVanishCancel
-"�����͌p��"
-�F�苾�͂܂�������Ȃ�...
+＊OnVanishCancel
+"実験は継続"
+：手鏡はまだ見つからない...
 
-��OnVanishButtonHold
-�F"�ُ�����m�A���f"
+＊OnVanishButtonHold
+
+："異常を検知、中断"
